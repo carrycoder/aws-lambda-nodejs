@@ -3,6 +3,6 @@ exports.getReviews = (req,res)=>{
         {name: "saurav", post: "very nice office"}, 
         {name: "gaurav", post: "environement is cool"}
     ]; 
-    res.send(reviews);
+    res.status(200).send(reviews);
 }
 

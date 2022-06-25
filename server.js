@@ -5,7 +5,7 @@ const app = express();
 const reviews = require("./routes/reviews");
 
 app.get("/",(req,res)=>{
-    res.send("welcome to the app"); 
+    res.status(200).send("welcome to the app"); 
 })
 
 app.use("/reviews",reviews);
@@ -16,3 +16,5 @@ app.listen(PORT,_ => {
     console.log(`App is listening at PORT ${PORT}`);
 })
 */
+
+module.exports = app; 
