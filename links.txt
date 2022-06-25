@@ -1,2 +1,2 @@
 ANY - https://xuv9noict8.execute-api.us-east-1.amazonaws.com/dev/{proxy+}
-  ANY - https://xuv9noict8.execute-api.us-east-1.amazonaws.com/dev
+ANY - https://xuv9noict8.execute-api.us-east-1.amazonaws.com/dev
