@@ -10,7 +10,9 @@ app.get("/",(req,res)=>{
 
 app.use("/reviews",reviews);
 
-const PORT = 3000;
+const PORT = 3000; 
+/*
 app.listen(PORT,_ => {
     console.log(`App is listening at PORT ${PORT}`);
 })
+*/
